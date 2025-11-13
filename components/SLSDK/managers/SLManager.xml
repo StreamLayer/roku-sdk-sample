@@ -1,0 +1,17 @@
+<component name="SLManager" extends="Node">
+  <interface>
+    <field id="focus" type="boolean" alwaysNotify="true" onChange="onGetFocus" />
+    <field id="promoVisible" type="boolean" alwaysNotify="true" />
+    <function name="bind" />
+    <function name="initialize" />
+    <function name="setEvent" />
+    <function name="getVersion" />
+    <function name="attachPlayer" />
+  </interface>
+
+  <children>
+        <ComponentLibrary id="SLSDKLibrary" />
+  </children>
+  
+   <script type="text/brightscript" uri="SLManager.brs" />
+</component>

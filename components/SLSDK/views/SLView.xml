@@ -1,0 +1,15 @@
+<component name="SLView" extends="Group">
+  <interface>
+    <field id="focus" type="boolean" alwaysNotify="true" onChange="onGetFocus" />
+    <field id="promoVisible" type="boolean" alwaysNotify="true" />
+    <function name="initialize" />
+    <function name="setEvent" />
+    <function name="attachPlayer" />
+  </interface>
+  
+  <children>
+    <Group id="sdkContainer" />
+  </children>
+
+   <script type="text/brightscript" uri="SLView.brs" />
+</component>

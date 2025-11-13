@@ -1,0 +1,53 @@
+<component name="MainScene" extends="Scene">
+  <interface>
+    <field id="exitApp" type="boolean" alwaysnotify="true" value="false" />
+  </interface>
+
+  <children>
+    <Poster
+      id="Background"
+      width="1920"
+      height="1080"
+      uri="pkg:/images/MainScene/background.png" />
+
+    <Poster
+      id="Logo"
+      width="600"
+      height="238"
+      uri="pkg:/images/Logo/streamlayer2.png"
+      translation="[660, 20]" />
+
+    <Label
+      id="titleLabel"
+      text="Enter Event ID"
+      translation="[560, 380]"
+      width="800"
+      horizAlign="center"
+      color="#FFFFFF"
+      font="font:LargeSystemFont" />
+
+    <TextEditBox
+      id="eventInput"
+      translation="[560, 460]"
+      width="800"
+      height="70"
+      hintText="e.g. 8995"
+      textColor="#FFFFFF"
+      hintTextColor="#7B8A99"
+      active="true" />
+
+    <Button
+      id="StartDemoBtn"
+      translation="[730, 600]"
+      minWidth="460"
+      maxWidth="460"
+      height="84"
+      iconUri=""
+      focusedIconUri=""
+      focusBitmapUri="pkg:/images/Buttons/start_demo_focused.png"
+      focusFootprintBitmapUri="pkg:/images/Buttons/start_demo_default.png"
+      showFocusFootprint="true" />
+  </children>
+
+  <script type="text/brightscript" uri="pkg:/components/scenes/MainScene.brs" />
+</component>

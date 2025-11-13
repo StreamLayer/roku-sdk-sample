@@ -1,0 +1,10 @@
+{
+  "settings": {
+    "host": "https://www.streamlayer.io",
+    "language": "EN",
+    "platform": "roku",
+    "apiKey": "REPLACE_WITH_YOUR_API_KEY",
+    "sdkUri": "pkg:/shared/StreamLayerSDK.pkg",
+    "enableLogging": true
+  }
+}
