@@ -1,0 +1,29 @@
+<component name="PlayerScreen" extends="Group">
+    <interface>
+        <field id="focus" type="boolean" alwaysNotify="true" onChange="onGetFocus" />
+        <field id="closed" type="boolean" alwaysNotify="true" />
+        <function name="playStream" />
+        <function name="initStreamLayerSDK" />
+    </interface>
+    <children>
+
+        <Rectangle
+            id="background"
+            width="1920"
+            height="1080"
+            color="0x000000"
+            translation="[0, 0]" />
+
+        <Video
+            id="Player"
+            width="1920"
+            height="1080"
+            translation="[0,0]" />
+
+        <SLView
+            id="SLView"
+            visible="false" />
+    </children>
+
+    <script type="text/brightscript" uri="pkg:/components/screens/PlayerScreen/PlayerScreen.brs" />
+</component>

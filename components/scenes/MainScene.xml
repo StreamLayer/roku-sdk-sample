@@ -13,8 +13,8 @@
     <Poster
       id="Logo"
       width="600"
-      height="238"
-      uri="pkg:/images/Logo/streamlayer2.png"
+      height="300"
+      uri="pkg:/images/Logo/streamlayer.png"
       translation="[660, 20]" />
 
     <Label
@@ -34,7 +34,7 @@
       hintText="e.g. 8995"
       textColor="#FFFFFF"
       hintTextColor="#7B8A99"
-      active="true" />
+      active="false" />
 
     <Button
       id="StartDemoBtn"
@@ -47,6 +47,26 @@
       focusBitmapUri="pkg:/images/Buttons/start_demo_focused.png"
       focusFootprintBitmapUri="pkg:/images/Buttons/start_demo_default.png"
       showFocusFootprint="true" />
+
+    <StandardKeyboardDialog
+      id="KeyboardDialog"
+      title="Enter Event ID"
+      visible="false" />
+
+    <Label
+      id="errorLabel"
+      width="1000"
+      height="50"
+      translation="[460, 800]"
+      text=""
+      horizAlign="center"
+      vertAlign="center"
+      color="0xFF5555FF"
+      visible="false" />
+
+    <PlayerScreen
+      id="PlayerScreen"
+      visible="false" />
   </children>
 
   <script type="text/brightscript" uri="pkg:/components/scenes/MainScene.brs" />

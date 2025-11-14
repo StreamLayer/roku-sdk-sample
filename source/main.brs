@@ -1,11 +1,11 @@
 
 
 '================================= MAIN ==================================='
-sub main(args as Dynamic)
+sub main(args as dynamic)
     screen = CreateObject("roSGScreen")
     m.port = CreateObject("roMessagePort")
     screen.setMessagePort(m.port)
-    
+
     '--- Create a scene and load /components/MainScene.xml ---'
     scene = screen.CreateScene("MainScene")
     screen.show()
