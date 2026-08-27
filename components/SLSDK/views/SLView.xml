@@ -1,0 +1,27 @@
+<component name="SLView" extends="Group">
+  <interface>
+    <field id="focus" type="boolean" alwaysNotify="true" onChange="onGetFocus" />
+    <field id="isPromoVisible" type="boolean" alwaysNotify="true" />
+    <field id="isNotificationVisible" type="boolean" alwaysNotify="true" />
+    <field id="isPauseAdVisible" type="boolean" alwaysNotify="true" />
+    <field id="isResumeRequested" type="boolean" alwaysNotify="true" />
+    <field id="isEventReady" type="boolean" alwaysNotify="true" />
+    
+    <function name="initialize" />
+    <function name="disposeSdk" />
+    <function name="setEvent" />
+    <function name="getVersion" />
+    <function name="attachPlayer" />
+    <function name="showPauseAd" />
+    <function name="showAd" />  
+    <function name="closePauseAd" />  
+    <function name="setPauseState" />  
+    <function name="setVastModeEnabled" />  
+  </interface>
+  
+  <children>
+    <Group id="sdkContainer" />
+  </children>
+
+   <script type="text/brightscript" uri="SLView.brs" />
+</component>

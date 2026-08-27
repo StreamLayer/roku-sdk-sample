@@ -1,0 +1,30 @@
+{
+  "settings": {
+    "language": "EN",
+    "platform": "roku",
+    "apiKey": "7d95462fa64955b092ae83ef5de62f6d1681a501c6ef2aa604c6b96ab842906a",
+    "sdkUri": "https://storage.googleapis.com/roku.streamlayer.io/2.11.0/StreamLayerSDK.pkg",
+    "streamUrl": "https://content.jwplatform.com/manifests/vM7nH0Kl.m3u8",
+
+    "sampleStreams": [
+      "https://content.jwplatform.com/manifests/vM7nH0Kl.m3u8",
+      "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8",
+      "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
+    ],
+
+    "isLoggingEnabled": true,
+    "isAnalyticsEnabled": false,
+    "isVastModeEnabled": true,
+    "isPrefetchEnabled": false,
+    "vastUrl":"https://roku.streamlayer.io/pause-ads/vast/exposed_standard.xml",
+    "isNotificationEnabled": false,
+
+    "vastAdTarget": "standard",
+    "vastAdType": "LBar21",
+    "vastAdTypes": {
+      "pause":    ["PauseVastFullBleed", "PauseVastAd", "PauseAdSidebar11", "PauseAdSidebar21"],
+      "standard": ["SideBar21", "LBar21", "SideBarImageOnly", "LBarImageOnly", "SideBySide"]
+    }
+  }
+}
+

@@ -1,0 +1,25 @@
+##   Channel Details
+title=SLIntegrationSample
+major_version=2
+minor_version=11
+build_version=0
+
+rsg_version=1.2
+supports_input_launch=1
+
+#bsprof_data_dest=0
+#bsprof_enable=0
+#bsprof_enable_mem=0
+
+##   Channel Assets
+mm_icon_focus_fhd=pkg:/images/AppIcons/channel_poster_fhd.png
+mm_icon_focus_hd=pkg:/images/AppIcons/channel_poster_hd.png
+mm_icon_focus_sd=pkg:/images/AppIcons/channel_poster_sd.png
+
+splash_screen_fhd=pkg:/images/AppIcons/splash_screen_fhd.png
+splash_screen_hd=pkg:/images/AppIcons/splash_screen_hd.png
+splash_screen_sd=pkg:/images/AppIcons/splash_screen_sd.png
+
+splash_min_time=4
+ui_resolutions=fhd
+
